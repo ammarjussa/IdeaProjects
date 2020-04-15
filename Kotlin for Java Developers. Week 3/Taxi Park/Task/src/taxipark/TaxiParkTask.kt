@@ -3,8 +3,22 @@ package taxipark
 /*
  * Task #1. Find all the drivers who performed no trips.
  */
-fun TaxiPark.findFakeDrivers(): Set<Driver> =
-        TODO()
+fun TaxiPark.findFakeDrivers(): Set<Driver> {
+    val allTrips: List<Trip> = this.trips
+    var driverList = mutableSetOf<Driver>();
+    for(trip in allTrips) {
+        driverList.add(trip.driver)
+    }
+
+    println(driverList)
+    val realDriver: (Driver) -> Boolean = {it !in driverList}
+
+    val allDri = this.allDrivers
+
+    val ans = allDri.filter(realDriver)
+    return ans.toSet()
+}
+
 
 /*
  * Task #2. Find all the clients who completed at least the given number of trips.
