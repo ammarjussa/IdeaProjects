@@ -120,7 +120,37 @@ fun TaxiPark.findSmartPassengers(): Set<Passenger> {
  * Return any period if many are the most frequent, return `null` if there're no trips.
  */
 fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {
-    return TODO()
+    var maxDuration = 0
+
+    if(this.trips.isEmpty()) return null
+
+    for(trip in this.trips) {
+        if(trip.duration > maxDuration) maxDuration=trip.duration
+    }
+
+    val bucket = arrayOfNulls<Int>((maxDuration/10)+1)
+    for(i in bucket.indices) {
+        bucket[i]=0
+    }
+
+    for(trip in this.trips) {
+//        println(trip.duration)
+        var index = trip.duration/10
+        bucket[index]= bucket[index]?.plus(1)
+    }
+
+    var mostFrequent = 0
+    var finalIndex = 0
+    for(i in bucket.indices) {
+        if(bucket[i]!! > mostFrequent) {
+            mostFrequent= bucket[i]!!
+            finalIndex=i
+        }
+    }
+
+    var finalAnswer = IntRange(finalIndex*10,(finalIndex+1)*10-1)
+    return finalAnswer
+
 }
 
 /*
