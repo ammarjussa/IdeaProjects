@@ -54,8 +54,27 @@ fun TaxiPark.findFaithfulPassengers(minTrips: Int): Set<Passenger> {
 /*
  * Task #3. Find all the passengers, who were taken by a given driver more than once.
  */
-fun TaxiPark.findFrequentPassengers(driver: Driver): Set<Passenger> =
-        TODO()
+fun TaxiPark.findFrequentPassengers(driver: Driver): Set<Passenger>  {
+    val findThoseTrips: (Trip) -> Boolean = {it.driver == driver}
+    val selectedTrips = this.trips.filter(findThoseTrips)
+
+    val finalSet = mutableSetOf<Passenger>()
+    val hashSet = mutableSetOf<Passenger>()
+
+    for(trip in selectedTrips) {
+        for(passenger in trip.passengers) {
+            if(passenger in hashSet) {
+                finalSet.add(passenger)
+            }
+            else {
+                hashSet.add(passenger)
+            }
+        }
+    }
+
+    return finalSet.toSet()
+}
+
 
 /*
  * Task #4. Find the passengers who had a discount for majority of their trips.
