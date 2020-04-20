@@ -68,7 +68,7 @@ files:
     selected: true
     status: Unchecked
   - offset: 3348
-    length: 726
+    length: 692
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -76,14 +76,14 @@ files:
     initialized_from_dependency: false
     selected: true
     status: Unchecked
-  - offset: 4214
-    length: 6
+  - offset: 4180
+    length: 827
     placeholder_text: TODO()
     initial_state:
       length: 6
       offset: 1075
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
   text: |-
     package taxipark

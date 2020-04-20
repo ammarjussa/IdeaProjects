@@ -148,8 +148,7 @@ fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {
         }
     }
 
-    var finalAnswer = IntRange(finalIndex*10,(finalIndex+1)*10-1)
-    return finalAnswer
+    return IntRange(finalIndex*10,(finalIndex+1)*10-1)
 
 }
 
@@ -158,5 +157,42 @@ fun TaxiPark.findTheMostFrequentTripDurationPeriod(): IntRange? {
  * Check whether 20% of the drivers contribute 80% of the income.
  */
 fun TaxiPark.checkParetoPrinciple(): Boolean {
-    TODO()
+    val driverCost = mutableMapOf<Driver, Double>();
+    var totalCost = 0.0
+    val driverNo = this.allDrivers.size
+
+    for(driver in this.allDrivers) {
+        driverCost[driver]= 0.0
+    }
+
+    if(this.trips.isEmpty()) return false;
+    for(trip in this.trips) {
+        driverCost[trip.driver] = driverCost.getOrDefault(trip.driver, 0.0) + trip.cost
+        totalCost+=trip.cost
+    }
+
+    val sorted = driverCost.toSortedMap(compareByDescending { driverCost[it] })
+
+    val driver20p = driverNo/5
+    val cost80p = 4*totalCost/5
+
+    var checkd=0
+    var checkc = 0.0
+
+    for(vals in sorted.values) {
+        println(vals)
+        if(checkd > driver20p) {
+            return false;
+        }
+
+        if(checkc >=cost80p) {
+            return true;
+        }
+
+        checkd+=1
+        checkc+=vals
+    }
+
+    return false;
+
 }

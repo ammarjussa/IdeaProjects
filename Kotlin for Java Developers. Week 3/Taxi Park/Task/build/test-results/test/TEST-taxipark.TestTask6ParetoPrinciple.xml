@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="taxipark.TestTask6ParetoPrinciple" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-04-20T08:30:32" hostname="ammar-J" time="0.075">
+  <properties/>
+  <testcase name="test1" classname="taxipark.TestTask6ParetoPrinciple" time="0.049"/>
+  <testcase name="test2" classname="taxipark.TestTask6ParetoPrinciple" time="0.001"/>
+  <testcase name="test3" classname="taxipark.TestTask6ParetoPrinciple" time="0.001"/>
+  <testcase name="test4" classname="taxipark.TestTask6ParetoPrinciple" time="0.001"/>
+  <testcase name="test5" classname="taxipark.TestTask6ParetoPrinciple" time="0.001"/>
+  <testcase name="test7" classname="taxipark.TestTask6ParetoPrinciple" time="0.004"/>
+  <testcase name="test8" classname="taxipark.TestTask6ParetoPrinciple" time="0.003"/>
+  <testcase name="test9" classname="taxipark.TestTask6ParetoPrinciple" time="0.005"/>
+  <testcase name="testParetoPrincipleFails" classname="taxipark.TestTask6ParetoPrinciple" time="0.002"/>
+  <testcase name="testParetoPrincipleNoTrips" classname="taxipark.TestTask6ParetoPrinciple" time="0.002"/>
+  <testcase name="testParetoPrincipleSucceeds" classname="taxipark.TestTask6ParetoPrinciple" time="0.002"/>
+  <system-out><![CDATA[160.0
+39.0
+160.0
+41.0
+0.0
+296.5
+39.6
+306.40000000000003
+42.39999999999999
+208.5
+73.6
+0.0
+422.3
+398.0
+60.3
+522.1
+311.3
+50.6
+40.099999999999994
+484.2
+458.8
+263.8
+202.29999999999998
+69.6
+120.0
+40.0
+0.0
+160.0
+40.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
