@@ -2,76 +2,77 @@ package rationals
 
 import java.lang.IllegalArgumentException
 import java.math.BigInteger
+import java.math.BigInteger.ZERO
 
-data class Rational(val rational: String) {
-    lateinit var numerator : BigInteger
-    lateinit var denominator: BigInteger
+data class Rational(val num: BigInteger, val den: BigInteger): Comparable<Rational> {
+    private var numerator : BigInteger = num
+    private var denominator: BigInteger = den
 
     init {
-        val spl = rational.split('/')
-        if(spl.size == 1) {
-            numerator = spl[0].toBigInteger()
-            denominator = "1".toBigInteger()
+        if(den == "0".toBigInteger()) {
+            throw IllegalArgumentException("Denominator cannot be zero")
         }
-        else {
-            numerator = spl[0].toBigInteger()
-            denominator = spl[1].toBigInteger()
-        }
+        val gcd = numerator.abs().gcd(denominator.abs())
 
+        val sign = numerator.signum() * denominator.signum()
+
+        numerator = (numerator.abs() / gcd) * sign.toBigInteger()
+        denominator = denominator.abs() / gcd
     }
 
     operator fun plus(adder: Rational): Rational {
-        lateinit var num: BigInteger
-        lateinit var dem: BigInteger
+        lateinit var nu: BigInteger
+        lateinit var de: BigInteger
+
 
         if(this.denominator == adder.denominator) {
-            num=this.numerator.plus(adder.numerator)
-            dem=this.denominator
-            return Rational("${num.toString()}/${dem.toString()}")
+            nu=this.numerator.plus(adder.numerator)
+            de=this.denominator
+            return Rational(nu,de)
 
         }
 
         else {
             val thegcd: BigInteger = this.denominator.gcd(adder.denominator)
 
-            val dem = (this.denominator.times(adder.denominator))
+            de = (this.denominator.times(adder.denominator))
                     .divide(thegcd)
             val adding=this.numerator.times(adder.denominator.divide(thegcd))
             val adding2=adder.numerator.times(this.denominator.divide(thegcd))
-            val num=adding.plus(adding2)
+            nu=adding.plus(adding2)
 
-            return Rational("${num.toString()}/${dem.toString()}")
+            return Rational(nu, de)
         }
     }
 
     operator fun minus(subt : Rational): Rational {
-        lateinit var num: BigInteger
-        lateinit var dem: BigInteger
+        lateinit var nu: BigInteger
+        lateinit var de: BigInteger
         if(this.denominator == subt.denominator) {
-            num=this.numerator.minus(subt.numerator)
-            dem=this.denominator
-            return Rational("${num.toString()}/${dem.toString()}")
+            nu=this.numerator.minus(subt.numerator)
+            de=this.denominator
+            return Rational(nu,de)
         }
 
         else {
             val thegcd: BigInteger = this.denominator.gcd(subt.denominator)
 
-            val dem = (this.denominator.times(subt.denominator))
+            de = (this.denominator.times(subt.denominator))
                     .divide(thegcd)
 
             val sub1=this.numerator.times(subt.denominator.divide(thegcd))
             val sub2=subt.numerator.times(this.denominator.divide(thegcd))
-            val num=sub1.minus(sub2)
+            nu=sub1.minus(sub2)
 
-            return Rational("${num.toString()}/${dem.toString()}")
+            return Rational(nu,de)
         }
     }
 
     operator fun times(mult: Rational): Rational {
-        var num: BigInteger = this.numerator.times(mult.numerator)
-        var dem: BigInteger = this.denominator.times(mult.denominator)
+        var nu: BigInteger = this.numerator.times(mult.numerator)
+        var de: BigInteger = this.denominator.times(mult.denominator)
 
-        return Rational("${num.toString()}/${dem.toString()}")
+        return Rational(nu,de)
     }
 
     operator fun div(div : Rational): Rational {
@@ -83,55 +84,87 @@ data class Rational(val rational: String) {
     }
 
     operator fun unaryMinus(): Rational {
-        var num = -this.numerator
-        var dem = this.denominator
-        return Rational("${num.toString()}/${dem.toString()}")
+        var nu = -this.numerator
+        var de = this.denominator
+        return Rational(nu,de)
     }
 
-    //Left
-    operator fun compareTo(twoThirds: Rational): Int {
-        print(this.numerator.divide(this.denominator))
-        if(this.numerator.divide(this.denominator) <
-                twoThirds.numerator.divide(twoThirds.denominator))
-            return 1
-        return 0
+    override fun compareTo(other: Rational): Int {
+        val lhs = this.numerator * other.denominator
+        val rhs = this.denominator * other.numerator
+        return when {
+            lhs < rhs -> -1
+            lhs > rhs -> 1
+            else -> 0
+        }
     }
 
-    //Left
-    operator fun rangeTo(twoThirds: Rational): Any {
-        return 0
-    }
 
     override fun toString(): String {
-        if(this.denominator == "1".toBigInteger()) {
-            return this.numerator.toString()
+        return if(this.denominator == "1".toBigInteger()) {
+            this.numerator.toString()
         } else {
             var num = this.numerator
             var dem = this.denominator
 
             val gcd = num.gcd(dem)
-            return "${(num/gcd).toString()}/${(dem/gcd).toString()}"
+            if(dem < ZERO) {
+                "${(-num/gcd).toString()}/${(-dem/gcd).toString()}"
+            }
+
+
+            else "${(num/gcd).toString()}/${(dem/gcd).toString()}"
+        }
+    }
+
+
+    override fun hashCode(): Int {
+        return this.toString().hashCode()
+    }
+
+    override fun equals(other: Any?): Boolean {
+        if (other == null)
+            return false
+
+        if (other !is Rational)
+            return false
+
+        return (this.numerator == other.numerator) &&
+                (this.denominator == other.denominator)
+    }
+
+    operator fun rangeTo(end: Rational): ClosedRange<Rational> {
+        return object : ClosedRange<Rational> {
+            override val endInclusive: Rational = end
+            override val start: Rational = this@Rational
         }
     }
 
 }
 
-infix fun Any.divBy(den: Any): Rational {
-    if(den != 0) {
-        return Rational("${this}/${den}")
-    }
 
-    throw IllegalArgumentException("Denominator = 0 Not allowed")
+infix fun Int.divBy(divisor: Int) : Rational {
+    return Rational(this.toBigInteger(), divisor.toBigInteger())
+}
+
+infix fun Long.divBy(divisor: Long) : Rational {
+    return Rational(this.toBigInteger(), divisor.toBigInteger())
+}
+
+infix fun BigInteger.divBy(divisor: BigInteger) : Rational {
+    return Rational(this, divisor)
 }
 
 fun String.toRational() : Rational {
-    return Rational(this)
+    val str = this.split('/')
+
+    if(str.size == 1) {
+        return Rational(str[0].toBigInteger(), "1".toBigInteger())
+    }
+    return Rational(str[0].toBigInteger(), str[1].toBigInteger())
 }
 
 
-operator fun Any.contains(half: Rational): Boolean {
-    return true
-}
 
 
 fun main() {
@@ -160,6 +193,7 @@ fun main() {
     val twoThirds = 2 divBy 3
     println(half < twoThirds)
 
+
     println(half in third..twoThirds)
 
     //Left
@@ -169,4 +203,14 @@ fun main() {
     println("912016490186296920119201192141970416029".toBigInteger() divBy
             "1824032980372593840238402384283940832058".toBigInteger() == 1 divBy 2)
 }
+
+private operator fun Rational.contains(half: Rational): Boolean {
+    if(this < half) return true
+    return false
+}
+
+
+
+
+
 
