@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45aadee0-e7e0-42fd-91af-eaabae034f87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Kotlin_for_Java_Developers._Week_4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin for Java Developers. Week 5/Games/Task/task-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin for Java Developers. Week 5/Games/lesson-info.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kotlin for Java Developers. Week 5/course-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Board/Task/Board-Task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Board/Task/Board-Task.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Board/Task/Board-Task_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Board/Task/Board-Task_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Board/Task/Board-Task_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Board/Task/Board-Task_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Kotlin_for_Java_Developers._Week_41.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Rationals/Task/Rationals-Task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Rationals/Task/Rationals-Task.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Rationals/Task/Rationals-Task_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Rationals/Task/Rationals-Task_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Rationals/Task/Rationals-Task_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Rationals/Task/Rationals-Task_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/classes/java/main/board/BoardImplKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/classes/java/main/board/BoardImplKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/classes/java/main/board/MySquareBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/classes/java/main/board/MySquareBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileTestKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileTestKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/kotlin/compileTestKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/kotlin/compileTestKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/reports/tests/test/classes/board.TestSquareBoard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/reports/tests/test/classes/board.TestSquareBoard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/reports/tests/test/packages/board.html" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/reports/tests/test/packages/board.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/test-results/test/TEST-board.TestSquareBoard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/test-results/test/TEST-board.TestSquareBoard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/src/board/BoardImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/src/board/BoardImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Board/Task/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Board/Task/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Rationals/Task/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Rationals/Task/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/kotlin/compileTestKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Rationals/Task/build/kotlin/compileTestKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/kotlin/compileTestKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Rationals/Task/build/kotlin/compileTestKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/reports/tests/test/classes/rationals.TestRationals.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rationals/Task/build/reports/tests/test/classes/rationals.TestRationals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rationals/Task/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/reports/tests/test/packages/rationals.html" beforeDir="false" afterPath="$PROJECT_DIR$/Rationals/Task/build/reports/tests/test/packages/rationals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/test-results/test/TEST-rationals.TestRationals.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Rationals/Task/build/test-results/test/TEST-rationals.TestRationals.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Rationals/Task/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_11513356257271300578_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_12018296774205579368_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_13938617204567889890_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_14329227444873097132_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_1479814614627239640_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_15757786553972803545_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_15935341579454771491_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_16029252843575559158_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_3165937643145910699_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_4038819204088871553_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_4057949810572378356_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_5464364765534030437_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_6875431447134013_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_7239493158387104960_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_8297586332303678227_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_8478382258824318150_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_8704715315024396219_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/build/tmp/test/jar_extract_8983180776449031196_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/out/production/classes/META-INF/Rationals-Task.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/out/production/classes/rationals/Rational$rangeTo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/out/production/classes/rationals/Rational.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rationals/Task/out/production/classes/rationals/RationalKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1b7n584HsfpUFJOVmL9Umnlk9lA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RunManager" selected="Gradle.TestSquareBoard">
+    <configuration name="TestGameBoard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;board.TestGameBoard&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Board-Task:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestRationals" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;rationals.TestRationals&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Rationals-Task:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSquareBoard" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;board.TestSquareBoard&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":Board-Task:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.TestSquareBoard" />
+        <item itemvalue="Gradle.TestGameBoard" />
+        <item itemvalue="Gradle.TestRationals" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45aadee0-e7e0-42fd-91af-eaabae034f87" name="Default Changelist" comment="" />
+      <created>1587991813767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587991813767</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1587991915690">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1587991915690" />
+    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1587991915690">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1587991915690" />
+    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1587991915689">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1587991915689" />
+    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1587991915690">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1587991915690" />
+  </component>
+</project>

@@ -4,9 +4,9 @@ import board.Direction.*
 import java.lang.IllegalArgumentException
 
 fun createSquareBoard(width: Int): SquareBoard = MySquareBoard(width)
-fun <T> createGameBoard(width: Int): GameBoard<T> = TODO()
+fun <T> createGameBoard(width: Int): GameBoard<T> = MyGameBoard(width)
 
-class MySquareBoard(override val width: Int): SquareBoard {
+open class MySquareBoard(override val width: Int): SquareBoard {
     private var cellBoard = mutableListOf<List<Cell>>()
     init {
         for(i in 1 .. width) {
@@ -15,7 +15,7 @@ class MySquareBoard(override val width: Int): SquareBoard {
                 cells.add(Cell(i,j))
             }
             cellBoard.add(cells)
-         }
+        }
     }
 
     override fun getCellOrNull(i: Int, j:Int ): Cell? {
@@ -115,23 +115,34 @@ class MySquareBoard(override val width: Int): SquareBoard {
     }
 }
 
-//open class MyGameBoard<T>(override val width: Int) : GameBoard<T> {
-//
-//    override fun filter(predicate: (T?) -> Boolean): Collection<Cell> {
-//        TODO("Not yet implemented")
-//    }
-//
-//    override fun find(predicate: (T?) -> Boolean): Cell? {
-//        TODO("Not yet implemented")
-//    }
-//
-//    override fun any(predicate: (T?) -> Boolean): Boolean {
-//        TODO("Not yet implemented")
-//    }
-//
-//    override fun all(predicate: (T?) -> Boolean): Boolean {
-//        TODO("Not yet implemented")
-//    }
-//
-//}
+open class MyGameBoard<T>(width: Int) : MySquareBoard(width), GameBoard<T> {
+    private val board = getAllCells()
+            .map { it to null }
+            .toMap<Cell, T?>()
+            .toMutableMap()
+
+
+    override fun filter(predicate: (T?) -> Boolean): Collection<Cell> {
+        return board.entries.filter { predicate(it.value) }.map{it.key}
+    }
+
+    override fun find(predicate: (T?) -> Boolean): Cell? {
+        return board.entries.find { predicate(it.value) }?.key
+    }
+
+    override fun any(predicate: (T?) -> Boolean): Boolean {
+        return board.entries.any {predicate(it.value)}
+    }
+
+    override fun all(predicate: (T?) -> Boolean): Boolean {
+        return board.entries.all {predicate(it.value)}
+    }
+
+    override operator fun get(cell: Cell): T? = board[cell]
+
+    override operator fun set(cell: Cell, value: T?) {
+        board[cell]=value
+    }
+
+}
 
