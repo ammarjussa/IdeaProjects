@@ -48,7 +48,7 @@ files:
 - name: src/board/BoardImpl.kt
   visible: true
   placeholders:
-  - offset: 90
+  - offset: 3565
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -57,7 +57,7 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-  - offset: 149
+  - offset: 3624
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -94,7 +94,7 @@ files:
   visible: true
   placeholders:
   - offset: 1227
-    length: 6
+    length: 1483
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -102,7 +102,7 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-  - offset: 1705
+  - offset: 3182
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -111,7 +111,7 @@ files:
     initialized_from_dependency: false
     selected: false
     status: Unchecked
-  - offset: 2052
+  - offset: 3529
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -193,7 +193,7 @@ files:
 - name: src/games/game2048/Game2048Helper.kt
   visible: true
   placeholders:
-  - offset: 730
+  - offset: 1509
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -229,7 +229,7 @@ files:
 - name: src/games/game2048/Game2048Initializer.kt
   visible: true
   placeholders:
-  - offset: 820
+  - offset: 1117
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -272,7 +272,7 @@ files:
   visible: true
   placeholders:
   - offset: 385
-    length: 6
+    length: 1947
     placeholder_text: TODO()
     initial_state:
       length: 6
@@ -299,7 +299,7 @@ files:
 - name: src/games/gameOfFifteen/GameOfFifteenHelper.kt
   visible: true
   placeholders:
-  - offset: 480
+  - offset: 716
     length: 6
     placeholder_text: TODO()
     initial_state:
@@ -329,7 +329,7 @@ files:
   visible: true
   placeholders:
   - offset: 576
-    length: 6
+    length: 126
     placeholder_text: TODO()
     initial_state:
       length: 6

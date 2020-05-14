@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7e88d0d7-5980-491c-9ac4-634c1da7795a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/Task/src/board/BoardImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Games/Task/src/board/BoardImpl.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/Task/src/games/game2048/Game2048.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Games/Task/src/games/game2048/Game2048.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/Task/src/games/game2048/Game2048Helper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Games/Task/src/games/game2048/Game2048Helper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/Task/src/games/game2048/Game2048Initializer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Games/Task/src/games/game2048/Game2048Initializer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenInitializer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Games/Task/src/games/gameOfFifteen/GameOfFifteenInitializer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/Task/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Games/Task/task-info.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1bU1Bf9lbumsjNgdkCRIu4NC107" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e88d0d7-5980-491c-9ac4-634c1da7795a" name="Default Changelist" comment="" />
+      <created>1588671724176</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588671724176</updated>
+    </task>
+    <servers />
+  </component>
+</project>

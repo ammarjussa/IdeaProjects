@@ -3,6 +3,7 @@ package games.game2048
 import board.Cell
 import board.GameBoard
 import kotlin.random.Random
+import kotlin.random.nextUInt
 
 interface Game2048Initializer<T> {
     /*
@@ -23,6 +24,11 @@ object RandomGame2048Initializer: Game2048Initializer<Int> {
      * If the board is full return null.
      */
     override fun nextValue(board: GameBoard<Int?>): Pair<Cell, Int>? {
-        TODO()
+        var nullboard = board.filter { it==null }
+        nullboard = nullboard.toList()
+        if(nullboard.isEmpty()) return null
+        val index=Random.nextInt(nullboard.size-1)
+        val startVal = generateRandomStartValue()
+        return Pair(nullboard[index], startVal)
     }
 }

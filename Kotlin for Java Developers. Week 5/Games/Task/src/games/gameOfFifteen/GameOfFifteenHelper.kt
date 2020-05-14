@@ -10,6 +10,17 @@ package games.gameOfFifteen
  *   (numbers sorted in the right order, empty cell at last).
  * Thus the initial permutation should be correct.
  */
+
+
 fun isEven(permutation: List<Int>): Boolean {
-    TODO()
+    var count=0
+    for(i in permutation.indices) {
+        for(j in i+1 until permutation.size) {
+            if(permutation[i] > permutation[j]) {
+                count+=1
+            }
+        }
+    }
+
+    return count == 0 || count % 2 == 0
 }

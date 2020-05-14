@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="games.gameOfFifteen.TestGameOfFifteen" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-05T09:44:38" hostname="ammar-J" time="0.058">
+  <properties/>
+  <testcase name="testMoves" classname="games.gameOfFifteen.TestGameOfFifteen" time="0.051"/>
+  <testcase name="testWinning" classname="games.gameOfFifteen.TestGameOfFifteen" time="0.006"/>
+  <system-out><![CDATA[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

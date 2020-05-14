@@ -41,7 +41,10 @@ class Game2048(private val initializer: Game2048Initializer<Int>) : Game {
  * Add a new value produced by 'initializer' to a specified cell in a board.
  */
 fun GameBoard<Int?>.addNewValue(initializer: Game2048Initializer<Int>) {
-    TODO()
+    val thepair = initializer.nextValue(this)
+    if (thepair != null) {
+        this[thepair.first] = thepair.second
+    }
 }
 
 /*
@@ -53,7 +56,28 @@ fun GameBoard<Int?>.addNewValue(initializer: Game2048Initializer<Int>) {
  * Return 'true' if the values were moved and 'false' otherwise.
  */
 fun GameBoard<Int?>.moveValuesInRowOrColumn(rowOrColumn: List<Cell>): Boolean {
-    TODO()
+    val thelist = mutableListOf<Int?>()
+    for(cell in rowOrColumn) {
+        thelist.add(this[cell])
+    }
+
+    val movedlist = thelist.moveAndMergeEqual { it*2 }
+
+    var i=0
+    for(cell in rowOrColumn) {
+        if(i==movedlist.size) {
+            this[cell]=null
+        }
+        else {
+            this[cell]=movedlist[i]
+            i+=1
+        }
+
+    }
+
+    return movedlist.isNotEmpty() && movedlist.size != rowOrColumn.size
+
+
 }
 
 /*
@@ -64,5 +88,37 @@ fun GameBoard<Int?>.moveValuesInRowOrColumn(rowOrColumn: List<Cell>): Boolean {
  * Return 'true' if the values were moved and 'false' otherwise.
  */
 fun GameBoard<Int?>.moveValues(direction: Direction): Boolean {
-    TODO()
+    var decision = false
+    when(direction) {
+        Direction.DOWN -> {
+            for(i in 1..this.width) {
+                val col=this.getColumn((width downTo 1), i)
+                decision = decision or moveValuesInRowOrColumn(col)
+
+            }
+        }
+        Direction.UP-> {
+            for(i in 1 ..this.width) {
+                val col=this.getColumn((1..this.width), i)
+                decision = decision or moveValuesInRowOrColumn(col)
+            }
+        }
+        Direction.LEFT -> {
+            for(i in 1..this.width) {
+                val row=this.getRow(i, (1..this.width))
+                decision = decision or moveValuesInRowOrColumn(row)
+            }
+        }
+        Direction.RIGHT -> {
+            for(i in 1..this.width) {
+                val row=this.getRow(i, ((this.width) downTo 1))
+                decision= decision or moveValuesInRowOrColumn(row)
+            }
+        }
+    }
+
+    return decision
+
+
+
 }
